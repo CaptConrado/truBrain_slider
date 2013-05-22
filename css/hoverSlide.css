@@ -1,0 +1,105 @@
+
+/*---- BEGIN: HoverSlide Styles ----*/
+#hoverSlide * {
+	padding:0;
+	margin:0;
+}
+#hoverSlide {
+	/*width:930px;*/
+	/*width: 650px;*/
+	/*height:211px;*/
+	height:240px;
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#fff;
+	position:relative;
+}
+#hoverSlide .slide {
+	/*width:650px;*/
+	height: 240px;
+	background-color:#fff;
+	overflow:hidden;
+	position:absolute;
+	/*z-index:1;*/
+	left:0px;
+}
+#hoverSlide .slide .container {
+	width:1650px;
+	/*height:211px;*/
+	height: 240px;
+	overflow:hidden;
+}
+#hoverSlide .slideMedia {
+	float:left;
+	width:72px;
+	height: 240px;
+	background:url(../img/Slider-Piracetam.png) no-repeat 0 0;
+	position:relative;
+	z-index:1;
+}
+#hoverSlide .slide.active .slideMedia:hover {
+	cursor:pointer;
+	background-position:0 0px;
+
+}
+#hoverSlide #slide2 {
+	z-index:2;
+	left:72px;
+}
+#hoverSlide #slide3 {
+	z-index:3;
+	left:144px;
+}
+#hoverSlide #slide4 {
+	z-index:4;
+	left:216px;
+}
+#hoverSlide #slide5 {
+	z-index:5;
+	left:288px;
+}
+#hoverSlide #slide6 {
+	z-index:6;
+	left:360px;
+}
+#hoverSlide #slide7 {
+	z-index:7;
+	left:432px;
+}
+#hoverSlide #slide8 {
+	z-index:8;
+	left:504px;
+}
+#hoverSlide #slide2 .slideMedia {
+	background-image:url(../img/Slider-CDPcholine.png);
+}
+#hoverSlide #slide3 .slideMedia {
+	background-image:url(../img/Slider-Tyrosine.png);
+}
+#hoverSlide #slide4 .slideMedia {
+	background-image:url(../img/Slider-Pramiracetam.png);
+}
+#hoverSlide #slide5 .slideMedia {
+	background-image:url(../img/Slider-Magnesium.png);
+}
+#hoverSlide #slide6 .slideMedia {
+	background-image:url(../img/Slider-Theanine.png);
+}
+#hoverSlide #slide7 .slideMedia {
+	background-image:url(../img/Slider-EPA-DHA.png);
+}
+#hoverSlide #slide8 .slideMedia {
+	background-image:url(../img/Slider-Carnitine.png);
+}
+
+/* Active Slide */
+#hoverSlide .slide.active .slideMedia {
+	/*width:370px;*/
+	width:650px;
+	background-position:0 0px;
+	/*background-image:url(../img/slide_2.png);*/
+
+}
+/*#hoverSlide .slide.active #slide1_replace, #hoverSlide .slide.active #slide2_replace, #hoverSlide .slide.active #slide3_replace, #hoverSlide .slide.active #slide4_replace, #hoverSlide .slide.active #slide5_replace {
+	display:block;
+}*/
